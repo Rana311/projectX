@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+ font-family: helvetica;
+ font-size: 18px;
+ /* background-image: url('images/pexels-eberhard-grossgasteiger-2310713.jpg');
+ background-size: cover; */
+}
+.center{
+    text-align: center;
+}
+
+.logo{
+    border-radius: 50%;
+    margin: 2px;
+}
+
+h1{ 
+    font-weight: bolder;
+    text-align: center;
+    background-image: url('/images/text_background.png');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+h3{
+  font-weight: bolder;
+    text-align: center;
+    background-image: url('/images/pexels-steve-johnson-1532704.jpg');
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.my{
+    position: relative;
+    margin: 0 48%;
+    width: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+ margin: 50px auto;
+ width: 10px;
+ display: flex;
+ flex-direction: column;
+}
+
+.quote-box {
+ border: 2px solid #ddd;
+ padding: 30px 20px;
+ margin-bottom: 20px;
+ background-color: bisque;
+}
+#quote {
+ color: #444;
+ text-align: center;
+}
+#author {
+ float: right;
+ color: #888;
+ font-weight: bold;
+ font-style: italic;
+ margin-top: 10px;
+}
+
+#btn {
+ align-self: center;
+ border: 2px solid #666;
+ padding: 10px 15px;
+ text-transform: uppercase;
+ color: #666;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+#btn:focus {
+ outline: none;
+}
+
+.nav-bg-color{
+    background-color: black;
+}
+
+.main{
+    display: flex;
+}
+
+.column{
+    flex: 1;
+}
+
+.journal{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* todo  */ 
+.todo {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+.complete{
+  background-color: #f44336;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.delete{
+  background-color: #5f3e3c;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+  .completed {
+    text-decoration: line-through;
+    color: #aaa;
+  }
+
+  /* notes */
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+  }
+  
+
+  
+  .note {
+    background-color: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .notes{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+  

@@ -1,0 +1,68 @@
+<!-- <div>
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div> -->
+
+// joke api
+
+// const jokeElement = document.getElementById('quote');
+// function getJoke() {
+//     fetch("https://v2.jokeapi.dev/joke/Programming")
+//     .then(res =>res.json())
+//     .then(data => {
+      
+//       if (data.type === 'twopart') {
+//         jokeElement.innerHTML = `<strong>Setup:</strong> ${data.setup}<br/><strong>Delivery:</strong> ${data.delivery}`;
+//       } else {
+//         jokeElement.innerHTML = data.joke;
+//       }
+//     });
+//   };
+
+
+  // Loop through all the keys in local storage
+  // for (let i = 0; i < localStorage.length; i++) {
+  //   const key = localStorage.key(i);
+  //   // Check if the key starts with 'journal_entry_' to filter out other keys if any
+  //   if (key.startsWith('journal_entry_')) {
+  //     const entryText = localStorage.getItem(key);
+  //     // Create a new entry element and display it
+  //     const entryElement = document.createElement('div');
+  //     entryElement.classList.add('entry');
+  //     entryElement.textContent = entryText;
+  //     entriesContainer.appendChild(entryElement);
+  //   }
+  // }
+
+  // Display existing entries when the page loads
+displayEntriesFromLocalStorage();
+
+
+// const journalEntry = document.getElementById('journalForm');
+// const entryText = journalEntry.value.trim();
+
+// function saveEntry(entryText){
+//   const date = new Date().toLocaleDateString();
+//   const entryKey = `journal_entry_${date}`;
+//   localStorage.setItem(entryKey, entryText);
+// }
+
+function displayEntriesFromLocalStorage() {
+  // Clear the container first to avoid duplicate entries
+  entriesContainer.innerHTML = '';
+
+
+}
+
